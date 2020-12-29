@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 300px;
+}
+
+.botao, a, a:hover {
+  text-transform: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.cartao-padrao {
+  width: 60%;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 40%;
+}
+
+.centralizar-bloco-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.centralizar-bloco-direita {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.centralizar-bloco-verticalmente {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.centralizar-texto-horizontalmente {
+  text-align: center;
+}
+
+.espacamento-i {
+  margin: 1em 0;
+}
+
+.espacamento-padrao-direita {
+  margin-right: 16px;
+}
+
+.margem-direita {
+  position: relative;
+  left: 80%;
+}
+
+.alinhe-texto-centro {
+  text-align: center;
+}
+
+@media(max-width: 1279px) {
+  .apresentacao-mapas {
+    display: none;
+  }
+}
+/*
+xl >= 1920px
+lg >= 1280px
+md < 1280px
+sm < 960px
+xs < 600px 
+
+
+<Grid item xs={12} sm={12} md={12}>
+  <TextField
+    label="Nome de Fantasia"
+    name="nome_fantasia"
+  />
+</Grid>
+*/

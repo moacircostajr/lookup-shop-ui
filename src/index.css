@@ -1,0 +1,46 @@
+/*
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*/
+
+@font-face {
+    font-family: 'Roboto';
+    src:
+      url('../node_modules/roboto-fontface/fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+      url('../node_modules/roboto-fontface/fonts/roboto/Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src:
+      url('./assets/fonts/Open Sans/OpenSans-Light.woff2') format('woff2'),
+      url('./assets/fonts/Open Sans/OpenSans-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'FreeHands 521';
+    src:
+      url('./assets/fonts/FreeHands 521/Freehand521BT-RegularC.woff2') format('woff2'),
+      url('./assets/fonts/FreeHands 521/Freehand521BT-RegularC.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans Light';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

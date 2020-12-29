@@ -1,0 +1,49 @@
+
+const useStyles = makeStyles((theme) => ({
+    formControl: {
+        margin: 0,
+        minWidth: 120,
+        maxWidth: '100%',
+    },
+    chips: {
+        display: 'flex',
+        flexWrap: 'wrap',
+    },
+    borderRadius: theme.shape.borderRadius,
+    select: {
+        lineHeight: '45px',
+        borderRadius: theme.shape.borderRadius,
+        backgroundColor: fade(theme.palette.common.white, 0.15),
+        '&:hover': {
+            backgroundColor: fade(theme.palette.common.white, 0.25),
+        },
+        '&:MuiSelect-selectMenu': {
+            borderColor: 'transparent',
+        },
+    },
+    label: {
+        color: 'white ',
+    },
+}));
+
+const ITEM_HEIGHT = 45;
+const ITEM_PADDING_TOP = 0;
+const MenuProps = {
+  PaperProps: {
+    style: {
+      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+      width: 250,
+    },
+  },
+};
+
+const names = [
+  'Oliver Hansen',
+  'Van Henry',
+  'April Tucker',
+  'Ralph Hubbard',
+  'Omar Alexander',
+  'Carlos Abbott',
+  'Miriam Wagner',
+];
+ 
