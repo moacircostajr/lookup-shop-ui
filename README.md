@@ -7,7 +7,7 @@ Estas instruções lhe permitirão obter uma cópia do projeto e executá-lo na 
 
 ## Pré-requisitos
 
-Por se tratar de um cliente, este projeto consome os serviços de uma API. No entanto, para testar e desenvolver esse projeto é possível que a API seja emulada pelo JSON SERVER, um programa que pode ser instalado na sua máquina através no comando `npm install json-server -g` e `npm install yarn -g`. O comando NPM, por sua vez, pode ser instalado através do comando `sudo apt install nodejs` (no GNU/LINUX distribuição Debian/Ubuntu/derivados).
+A tecnologia de desenvolvimento dessa interface pode ser instalada através dos comandos `sudo apt install nodejs` e `npm install yarn -g` (no GNU/LINUX distribuição Debian/Ubuntu/derivados).
 
 ## Instalação
 
