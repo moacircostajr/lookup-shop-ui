@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# lookup-shop-ui
+Projeto desenvolvido em Javascript com a biblioteca React, consistindo numa interface genérica concebda para ser usada pelo consumidor final da plataforma de vendas online Lookup. Consome a API lookup-api.
 
-## Available Scripts
+### Introdução
 
-In the project directory, you can run:
+Estas instruções lhe permitirão obter uma cópia do projeto e executá-lo na sua máquina local para desenvolvimento e testes. Veja as notas de compilação para saber como compilar o projeto.
 
-### `yarn start`
+## Pré-requisitos
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Por se tratar de um cliente, este projeto consome os serviços de uma API. No entanto, para testar e desenvolver esse projeto é possível que a API seja emulada pelo JSON SERVER, um programa que pode ser instalado na sua máquina através no comando `npm install json-server -g` e `npm install yarn -g`. O comando NPM, por sua vez, pode ser instalado através do comando `sudo apt install nodejs` (no GNU/LINUX distribuição Debian/Ubuntu/derivados).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Instalação
 
-### `yarn test`
+Após o download deste projeto, dentro de sua pasta principal deve ser executado o comando `yarn`, para que seja feito o download e a instalação das dependências do projeto.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Após a instalação das dependências, basta executar os passos informados nas notas a seguir.
 
-### `yarn build`
+## Servidor de desenvolvimento
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Execute `yarn start`, no terminal de comando, para iniciar o servidor de desenvolvimento. Acesse o endereço web `http://localhost:3000/`. A aplicação será atualizada automaticamente caso seja alterado o código fonte.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Para parar a execução do servidor de desenvolvimento, pressione `Ctrl + C`, no terminal de comando.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Compilação
 
-### `yarn eject`
+Execute `yarn build` para compilar o projeto. O projeto compilado poderá ser encontrado no diretório build/.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Ajuda
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para obter mais informações sobre a biblioteca React, acesse [React Docs](https://pt-br.reactjs.org/docs/getting-started.html).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Licença
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Este projeto está licenciado sob os termos da [GNU General Public License v3.0](http://licencas.softwarelivre.org/gpl-3.0.pt-br.html).
 
-## Learn More
+## Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* **Moacir Costa** - *Desenvolvedor inicial*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Agradecimentos
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* A Jesus Cristo, que me deu fé, coragem, inteligência e determinação para chegar até aqui
+* Ao meu irmão, Claudio Costa, que me ensinou a desenvolver sistemas web nos seus momentos de folga
