@@ -1,5 +1,5 @@
 # lookup-shop-ui
-Projeto desenvolvido em Javascript com a biblioteca React, consistindo numa interface genérica concebda para ser usada pelo consumidor final da plataforma de vendas online Lookup. Consome a API lookup-api.
+Projeto desenvolvido em Javascript com a biblioteca React, consistindo numa interface genérica com o propósito de ser usada pelo consumidor final da plataforma de vendas online Lookup. Consome a API lookup-api.
 
 ### Introdução
 
